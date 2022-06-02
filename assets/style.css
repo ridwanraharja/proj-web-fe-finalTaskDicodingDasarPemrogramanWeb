@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Quicksand:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dbdffd;
+  color: white;
+}
+
+header {
+  display: inline;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  text-align: left;
+  background-image: linear-gradient(180deg, #646fd4, #9ba3eb);
+}
+
+nav {
+  padding: 1px 10px;
+  background-color: #9ba3eb;
+  position: sticky;
+  top: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: ;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+main .flex1 {
+  flex-basis: 75%;
+}
+
+main .flex2 {
+  flex-basis: 25%;
+}
+
+main .content {
+  padding: 20px;
+}
+
+.layer {
+  background-color: #242f9b;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #9ba3eb;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.featured-img {
+  height: 300px;
+  border-radius: 5px;
+}
+
+aside {
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#profile {
+  border: 5px;
+  padding: 20px;
+  background-color: #9ba3eb;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.profile-img {
+  height: 200px;
+  text-align: center;
+}
+
+th,
+td {
+  text-align: left;
+  padding-left: 10px;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  background-color: #646fd4;
+  padding: 10px;
+}
